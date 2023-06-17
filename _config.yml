@@ -66,8 +66,8 @@ responsive_images:
         width: 600
         height: 1066
       tablet_vertical:
-        width: 1024
-        height: 1366
+        width: 2560
+        height: 1440
       tablet:
         width: 1024
         height: 576
