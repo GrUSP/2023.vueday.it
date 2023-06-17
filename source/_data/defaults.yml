@@ -13,7 +13,7 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://vueday-2021.eventbrite.com"
+  buy_tickets_url: ""
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
@@ -24,9 +24,9 @@ conference:
   contact_email: "vueday@grusp.org"
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "vueday Digital Edition"
-  city: "online"
-  date: 2021-04-15T10:00+02:00
+  title: "vueday 2023"
+  city: "Verona"
+  date: 2023-11-10T10:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -51,16 +51,21 @@ conference:
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2021-02-28T23:59+01:00
+  cfp_deadline: 2023-08-30T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "vueday 2021 is the 3rd edition of the Vue conference, from the GrUSP Team - organizer of events like <a href='https://www.jsday.it/'>jsday</a>.
+  geninfo_description: "vueday 2023 is the 5th edition of the Vue conference, from the GrUSP Team - organizer of events like <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> <br /> Vue is a progressive framework for building user interfaces. Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects.
-  <br> <br /> Due to the current pandemic situation, the 2021 edition is taking place online."
+  <br> <br /> vueday 2023 is happening <b>in Verona and online on Friday 10th November 2023.</b>"
+  # <br> <br /> The day before the conference, Thursday 17th, in the same venue we are hosting:
+  # <ul>
+  # <li>• <a href='https://2022.vueday.it/workshop'>two workshops related to Vue</a> (tickets are sold separately); </li>
+  # <li>• <a href='https://laravelday.it'>laravelday</a>, a conference dedicated to Laravel, in Italian language. You can have a discounted ticket if you want to attend both conferences.  </li>
+  # </ul>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"

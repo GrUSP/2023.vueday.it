@@ -48,14 +48,14 @@ days:
         talk_title: "Check-in"
       talk_2:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        start_datetime: 2023-05-19T13:00+02:00
+        end_datetime: 2023-05-19T14:30+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
       happy-hour:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
+        start_datetime: 2023-05-19T18:25+02:00
+        end_datetime: 2023-05-19T19:30+02:00
         talk_title: "Happy Hour"
         service_icon: "glass"
 
@@ -63,8 +63,8 @@ days:
       keynote:
         item_type: "keynote"
         track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2023-05-19T09:30+02:00
+        end_datetime: 2023-05-19T10:25+02:00
         talk_title: ""
         talk_description: ""
         talk_video_url:
@@ -73,8 +73,8 @@ days:
       titolotalk1:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        start_datetime: 2023-05-19T10:25+02:00
+        end_datetime: 2023-05-19T11:05+02:00
         talk_title: ""
         talk_description: ""
         talk_video_url:
