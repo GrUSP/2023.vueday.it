@@ -132,9 +132,9 @@ conference:
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unnhFRv8uda3vYzj1BnaJB5O"
+  youtube_playlist_id: "PLWK9j6ps_unmUzyRso3XncsDYSA32kSem "
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
-  vimeo_showcase_id: "6048109"
+  vimeo_showcase_id: "783910258"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
   location_visible: false
   location_name: "Hotel San Marco"
