@@ -6,7 +6,7 @@
 # conference config
 conference:
   # Online-only conferences
-  is_online_only: true
+  is_online_only: false
   online_location: "online"
   online_location_title: "The Internet"
   online_location_info: "The conference is taking place virtually"
