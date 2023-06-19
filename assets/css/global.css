@@ -4679,34 +4679,31 @@ header {
 .hero__container {
   flex-direction: row;
   width: 100vw;
-  height: 100vh;
+  height: 30vh;
   background-image: url("/assets/img/hero/hero.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
   position: relative; }
   @media screen and (min-width: 769px), print {
     .hero__container {
-      background-image: url("/assets/img/hero/tablet_hero.jpg"); } }
+      background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
   @media screen and (min-width: 1024px) {
     .hero__container {
-      background-image: url("/assets/img/hero/desktop_hero.jpg"); } }
+      background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
   @media screen and (min-width: 1216px) {
     .hero__container {
-      background-image: url("/assets/img/hero/widescreen_hero.jpg"); } }
+      background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
   @media screen and (min-width: 1408px) {
     .hero__container {
-      background-image: url("/assets/img/hero/hero.jpg"); } }
+      background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
   @media screen and (orientation: portrait) and (min-width: 768px) {
     .hero__container {
-      background-image: url("/assets/img/hero/tablet_vertical_hero.jpg"); } }
+      background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
   @media screen and (orientation: portrait) and (max-width: 600px) {
     .hero__container {
-      background-image: url("/assets/img/hero/mobile_medium_hero.jpg"); } }
+      background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
   @media screen and (orientation: portrait) and (max-width: 360px) {
     .hero__container {
-      background-image: url("/assets/img/hero/mobile_small_hero.jpg"); } }
+      background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
   .hero__container .inner {
     align-items: center; }
   .hero__container .row-info {
@@ -4732,7 +4729,7 @@ header {
     .hero__container svg path {
       fill: #fff; }
   .hero__container .row__title {
-    padding: 8em 0 4em; }
+    padding: 2em 0 2em; }
     @media screen and (min-width: 769px), print {
       .hero__container .row__title {
         padding: 1em 0; } }
@@ -4749,28 +4746,28 @@ header {
       .hero__container .row__title h1 {
         font-size: 4em; } }
   .hero__container.is-online-conference {
-    background-image: url("/assets/img/hero/hero-online.jpg"); }
+    background-image: url("/assets/img/hero/desktop_hero-online.jpg"); }
     @media screen and (min-width: 769px), print {
       .hero__container.is-online-conference {
-        background-image: url("/assets/img/hero/tablet_hero-online.jpg"); } }
+        background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
     @media screen and (min-width: 1024px) {
       .hero__container.is-online-conference {
-        background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
+        background-image: url("/assets/img/hero/desktop_hero-online.jp"); } }
     @media screen and (min-width: 1216px) {
       .hero__container.is-online-conference {
-        background-image: url("/assets/img/hero/widescreen_hero-online.jpg"); } }
+        background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
     @media screen and (min-width: 1408px) {
       .hero__container.is-online-conference {
-        background-image: url("/assets/img/hero/hero-online.jpg"); } }
+        background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
     @media screen and (orientation: portrait) and (min-width: 768px) {
       .hero__container.is-online-conference {
-        background-image: url("/assets/img/hero/tablet_vertical_hero-online.jpg"); } }
+        background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
     @media screen and (orientation: portrait) and (max-width: 600px) {
       .hero__container.is-online-conference {
-        background-image: url("/assets/img/hero/mobile_medium_hero-online.jpg"); } }
+        background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
     @media screen and (orientation: portrait) and (max-width: 360px) {
       .hero__container.is-online-conference {
-        background-image: url("/assets/img/hero/mobile_small_hero-online.jpg"); } }
+        background-image: url("/assets/img/hero/desktop_hero-online.jpg"); } }
 
 .info__location {
   padding: 0 30px 0 10px; }
@@ -4797,7 +4794,7 @@ header {
   align-items: flex-start;
   justify-content: flex-start;
   width: 120px;
-  height: 120px; }
+  height: 60px; }
 
 .days, .hours, .minutes, .seconds {
   font-weight: 600;
