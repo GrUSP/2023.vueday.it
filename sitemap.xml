@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2023.vueday.it/welcome/about.html</loc>
-    
-    <lastmod>2023-06-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2023.vueday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2023-06-20</lastmod>
@@ -16,14 +9,21 @@
   </url>
   
   <url>
-    <loc>https://2023.vueday.it/schedule/index.html</loc>
+    <loc>https://2023.vueday.it/workshop/index.html</loc>
     
     <lastmod>2023-06-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2023.vueday.it/sponsor/index.html</loc>
+    <loc>https://2023.vueday.it/workshop/workshop_1.html</loc>
+    
+    <lastmod>2023-06-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2023.vueday.it/welcome/where.html</loc>
     
     <lastmod>2023-06-20</lastmod>
     
@@ -44,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://2023.vueday.it/workshop/index.html</loc>
+    <loc>https://2023.vueday.it/welcome/about.html</loc>
     
     <lastmod>2023-06-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2023.vueday.it/workshop/workshop_1.html</loc>
+    <loc>https://2023.vueday.it/schedule/index.html</loc>
     
     <lastmod>2023-06-20</lastmod>
     
@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://2023.vueday.it/welcome/where.html</loc>
+    <loc>https://2023.vueday.it/sponsor/index.html</loc>
     
     <lastmod>2023-06-20</lastmod>
     
