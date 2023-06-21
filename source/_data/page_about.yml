@@ -26,6 +26,10 @@ team:
       name: "Matteo Beccati"
       role: "GrUSP Founder & Board Member"
       pic_filename: "matteo_yellow.jpg"
+    member_11:
+      name: "Cristina Chesini"
+      role: "Training Manager"
+      pic_filename: "cristina_yellow.jpg"
     member_2:
       name: "Alessandro 'Cirpo' Cinelli"
       role: "Technical Committee"
@@ -58,7 +62,4 @@ team:
       name: "Giulia Tosato"
       role: "Event Manager"
       pic_filename: "giulia_yellow.jpg"
-    member_11:
-      name: "Cristina Chesini"
-      role: "Training Manager"
-      pic_filename: "cristina_yellow.jpg"
+    
