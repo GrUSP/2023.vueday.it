@@ -4,8 +4,15 @@ intro:
   # NB la data è definita in `defaults`
   content_1: "Propose a talk! Take the chance to share your experience, test yourself on topics you know well and learn something new while preparing your presentation.
   You will also make yourself known in the community."
-  content_2: "The selected speakers will have access to all of our 2023 digital conferences, and a free bronze sponsorship for their company (or same amount discount for upgrading to an higher sponsorship level).
- <br> <br /> You can decide whether to present your talk live or to record it in advance. The Q&A at the end of the talk will be live in any case. We will offer you all the technical support you will need!"
+  content_2: "<strong>What we offer you if your talk is selected:</strong>
+  <ul>
+    <li>• conference ticket;</li>
+    <li>• a single room for 1 night (2 nights for people coming from outside the European continent);</li>
+    <li>• speakers' dinner; </li>
+    <li>• a refund of up to €250 for travel costs within Europe (up to €500 outside the European continent). <br />Refunds are paid right after the conference. We will send out a form to collect the travel expenses, and it takes 10-15 days for the refunds to be processed.
+      Please let us know if you have any challenges about it and we will find a solution
+    </li>
+  </ul>"
 more_info:
   title: "Diversity and Inclusion"
   description_1: "GrUSP is committed to creating a conference that is as inclusive as possible. We welcome submissions from all over the world, regardless of ethnicity, gender, age.
