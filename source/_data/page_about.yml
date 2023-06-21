@@ -10,9 +10,7 @@ intro:
 more:
   title: "vueday"
   content_1:
-    "vueday is the main conference in Italy that is dedicated solely to Vue and its ecosystem.
-    <br><br  />
-    This is the 3rd edition of the conference, and due to the pandemic situation it will take place online"
+    "vueday is the main conference in Italy that is dedicated solely to Vue and its ecosystem."
   content_2:
 past_edition:
   title: "Browse past editions of vueday"
