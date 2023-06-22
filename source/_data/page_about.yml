@@ -28,10 +28,6 @@ team:
       name: "Cristina Chesini"
       role: "Training Manager"
       pic_filename: "cristina_yellow.jpg"
-    member_2:
-      name: "Alessandro 'Cirpo' Cinelli"
-      role: "Technical Committee"
-      pic_filename: "cirpo_yellow.jpg"
     member_3:
       name: "Cesare D'Amico"
       role: "GrUSP founder & Board Member"
@@ -56,8 +52,11 @@ team:
       name: "Daniel Londero"
       role: "GrUSP Board Member"
       pic_filename: "daniel_yellow.jpg"
+    member_9:
+      name: "Francesco Mancin"
+      role: "Regia e Video"
+      pic_filename: "francesco_yellow.jpg"
     member_10:
       name: "Giulia Tosato"
       role: "Event Manager"
       pic_filename: "giulia_yellow.jpg"
-    
