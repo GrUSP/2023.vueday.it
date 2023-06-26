@@ -7,9 +7,9 @@
 conference:
   # Online-only conferences
   is_online_only: false
-  online_location: "online"
-  online_location_title: "The Internet"
-  online_location_info: "The conference is taking place virtually"
+  online_location: "Verona"
+  online_location_title: ""
+  online_location_info: ""
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
@@ -26,7 +26,7 @@ conference:
   title_pre: "Welcome to"
   title: "vueday 2023"
   city: "Verona"
-  date: 2023-11-10T10:00+02:00
+  date: 2023-11-10T09:00+01:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -120,10 +120,10 @@ conference:
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
   media_visible: true
-  media_pic_1: ""
-  media_pic_2: ""
-  media_pic_3: ""
-  media_pic_4: ""
+  media_pic_1: "people.jpg"
+  media_pic_2: "vueday1.jpeg"
+  media_pic_3: "sanmarco.png"
+  media_pic_4: "vueday2.jpeg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
@@ -136,9 +136,9 @@ conference:
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "783910258"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  location_visible: false
+  location_visible: true
   location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
+  location_address: "Via Longhena 42, 37138 Verona Italy"
   location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
   location_maps_label: "Get directions"
   location_readmore_label: "Read more"

@@ -13,9 +13,9 @@ type: website
 slug: vueday
 edition: 2023
 title: "vueday 2023"
-description: "vueday 2023, the Italian Vue conferenc"
+description: "vueday 2023, the Italian Vue conference"
 #   separate keywords by comma, no spaces
-keywords: conference,software conference,symfony,php,tech conference
+keywords: conference,software conference,vue,javascript,tech conference
 author: GrUSP
 language: en
 timezone: 'Europe/Rome'
