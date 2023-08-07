@@ -4,29 +4,63 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+speaker_1: &NataliaTeplhuina
+  speaker_in_speaker_lists: true
+  speaker_name: Natalia Tepluhina
+  speaker_pic_filename: NataliaTepluhina.jpg
+  speaker_role: "Principal Engineer @ GitLab"
+  speaker_bio: "Hi! My name is Natalia and I'm passionate about web development. You might know me as a Vue.js core team member, conference speaker, an author of some tech blog posts or you might not know me at all - it's fine! I've shared some of my talks, articles and planned conferences here, please feel welcome! "
+  speaker_github_url: "https://github.com/NataliaTepluhina"
+  speaker_twitter_url: "https://twitter.com/N_Tepluhina"
   is_mc: false
 
+speaker_2: &FilipRakowski
+  speaker_in_speaker_lists: true
+  speaker_name: Filip Rakowski
+  speaker_pic_filename: FilipRakowski.jpg
+  speaker_role: "CTO, Co-founder @ Vue Storefront"
+  speaker_bio: "Filip is co-founder of Vue Storefront and official Vue.js Community Partner. Filip is CTO and co-founder of Vue Storefront. He is an active member of Vue.js Community, co-organiser of Wrocław Vue.js meetups and speaker on international Vue.js and Javascript conferences all around the world. He loves eCommerce, Vue, Nuxt and is always eager to find ways to optimize web performance. If you are a member of Vue.js community, there is a high chance you know him from his well-known series of articles “Vue.js Performance” on Vue School. "
+  speaker_github_url: "https://github.com/filrak"
+  speaker_twitter_url: "https://twitter.com/filrakowski"
+  is_mc: false
+
+speaker_3: &VanessaOtto
+  speaker_in_speaker_lists: true
+  speaker_name: Vanessa Otto
+  speaker_pic_filename: VanessaOtto.jpg
+  speaker_role: "Frontend Lead Engineer @ Zavvy GmbH"
+  speaker_bio: "Vanessa is Frontend Lead at Zavvy.io, working extensively with Vue 3. She has an M.Sc in Media Informatics with a focus on Human-Computer-Interaction. She co-hosts two popular podcasts, Working Draft and expect(Exception). Vanessa is an experienced public speaker and workshop facilitator, sharing her expertise and passion for technology with diverse audiences. She has contributed to multiple conferences, serving on program committees for notable events like JS Kongress."
+  speaker_github_url: "https://github.com/Vannsl"
+  speaker_twitter_url: https://twitter.com/vannsl"
+  is_mc: false
+
+speaker_4: &DanielRoe
+  speaker_in_speaker_lists: true
+  speaker_name: Daniel Roe
+  speaker_pic_filename: DanielRoe.jpg
+  speaker_role: "Framework Architect @ Nuxt Labs"
+  speaker_bio: "Daniel leads the Nuxt core team. He founded and successfully grew a creative agency, launched an HR-tech SaaS startup, and continues to contribute to the developer community in the North East. He was identified as One to Watch by FreshMinds, has delivered a TEDx talk on the importance of clear communication, was a founding member of Durham Young Professionals and has mentored students in the Future Business Magnates programme. He has been recognised as a Microsoft MVP and a Google GDE. Daniel holds an MA in Jurisprudence from Oxford University and an MTh in Theological and Pastoral Studies from Oak Hill College."
+  speaker_github_url: "https://github.com/danielroe/"
+  speaker_twitter_url: https://twitter.com/danielcroe"
+  is_mc: true
+
+
 speakers:
-  speaker_1: *speaker
+  speaker_1: *NataliaTeplhuina
+  speaker_2: *FilipRakowski
+  speaker_3: *VanessaOtto
+  speaker_4: *DanielRoe
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+  # track_2: &track_2
+  #   id: 2
+  #   title: "Track 2"
+  # track_3: &track_3
+  #   id: 3
+  #   title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -60,23 +94,23 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2023-05-19T09:30+02:00
-        end_datetime: 2023-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2023-05-19T10:25+02:00
-        end_datetime: 2023-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
+      # keynote:
+      #   item_type: "keynote"
+      #   track: *track_1
+      #   start_datetime: 2023-05-19T09:30+02:00
+      #   end_datetime: 2023-05-19T10:25+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
+      # titolotalk1:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   start_datetime: 2023-05-19T10:25+02:00
+      #   end_datetime: 2023-05-19T11:05+02:00
+      #   talk_title: ""
+      #   talk_description: ""
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_1: *speaker
