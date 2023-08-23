@@ -4679,7 +4679,7 @@ header {
 .hero__container {
   flex-direction: row;
   width: 100vw;
-  height: 40vh;
+  height: 100vh;
   background-image: url("/assets/img/hero/hero.jpg");
   background-size: cover;
   position: relative; }
