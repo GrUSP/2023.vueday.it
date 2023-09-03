@@ -4679,7 +4679,7 @@ header {
 .hero__container {
   flex-direction: row;
   width: 100vw;
-  height: 100vh;
+  min-height: 50vh;
   background-image: url("/assets/img/hero/hero.jpg");
   background-size: cover;
   position: relative; }
@@ -4729,7 +4729,7 @@ header {
     .hero__container svg path {
       fill: #fff; }
   .hero__container .row__title {
-    padding: 2em 0 2em; }
+    padding: 4em 0 4em; }
     @media screen and (min-width: 769px), print {
       .hero__container .row__title {
         padding: 1em 0; } }
@@ -4848,7 +4848,8 @@ header {
     .cfp__container .inner .row-info {
       display: inline-flex;
       flex-wrap: wrap;
-      align-items: center; }
+      align-items: center;
+      gap: 2em; }
     .cfp__container .inner span {
       margin-right: 0; }
       @media screen and (min-width: 769px), print {
