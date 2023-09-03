@@ -8,7 +8,7 @@
   flex-direction: row
   width: 100vw
   //- this is to avoid having `hero-head` and `hero-foot` (see bulma docs)
-  height: 100vh
+  min-height: 50vh
   background-image: url("/assets/img/hero/hero.jpg") 
   background-size: cover
   
@@ -52,7 +52,7 @@
     path
       fill: $main-text-color_inverted
   .row__title
-    padding: 2em 0 2em
+    padding: 4em 0 4em
     +tablet
       padding: 1em 0
   .row__title h1
