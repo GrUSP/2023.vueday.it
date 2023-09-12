@@ -8,7 +8,7 @@ speaker_1: &NataliaTeplhuina
   speaker_in_speaker_lists: true
   speaker_name: Natalia Tepluhina
   speaker_pic_filename: NataliaTepluhina.jpg
-  speaker_role: "Principal Engineer @ GitLab"
+  speaker_role: "Core team member, Vue.js"
   speaker_bio: "Hi! My name is Natalia and I'm passionate about web development. You might know me as a Vue.js core team member, conference speaker, an author of some tech blog posts or you might not know me at all - it's fine! I've shared some of my talks, articles and planned conferences here, please feel welcome! "
   speaker_github_url: "https://github.com/NataliaTepluhina"
   speaker_twitter_url: "https://twitter.com/N_Tepluhina"
@@ -99,8 +99,8 @@ days:
         track: *track_1
         start_datetime:
         end_datetime:
-        talk_title: ""
-        talk_description: ""
+        talk_title: "Unleashing the Power of AI: Integrating Tiptap, OpenAI, and Vue.js"
+        talk_description: "In this session, you'll discover the seamless integration of AI-powered actions on websites. We will unveil the groundbreaking combination of Tiptap, OpenAI, and Vue.js, empowering you to create a feature-rich Rich Text Editor. Learn practical techniques for precise and targeted actions, including text translation, tone modification, and seamless adjustments within the widely adopted headless editor. Gain insights into privacy considerations, performance optimization, and delivering an exceptional user experience. Elevate productivity to new heights with AI-augmented text editing."
         talk_video_url:
         speakers:
           speaker_1: *VanessaOtto
@@ -119,8 +119,8 @@ days:
         track: *track_1
         start_datetime:
         end_datetime:
-        talk_title: ""
-        talk_description: ""
+        talk_title: "A New Nuxt"
+        talk_description: "As we approach the one-year mark since the release of Nuxt 3, let's take a journey through the past, present, and future of Nuxt and the broader ecosystem. We'll reflect on the progress we've made since Nuxt 3 was released and think about what's coming next."
         talk_video_url:
         speakers:
           speaker_1: *DanielRoe
@@ -129,8 +129,8 @@ days:
         track: *track_1
         start_datetime:
         end_datetime:
-        talk_title: ""
-        talk_description: ""
+        talk_title: "7 ways to make your Vue unit tests better"
+        talk_description: "Unit testing is hard. Unit testing Vue components is even harder. In this talk, I want to share some good testing practices developed over the years of my Vue experience. I hope they will help you improve your unit tests - or help you start writing them if you never did so!"
         talk_video_url:
         speakers:
           speaker_1: *NataliaTeplhuina
