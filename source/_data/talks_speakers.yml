@@ -31,7 +31,7 @@ speaker_3: &VanessaOtto
   speaker_role: "Frontend Lead Engineer @ Zavvy GmbH"
   speaker_bio: "Vanessa is Frontend Lead at Zavvy.io, working extensively with Vue 3. She has an M.Sc in Media Informatics with a focus on Human-Computer-Interaction. She co-hosts two popular podcasts, Working Draft and expect(Exception). Vanessa is an experienced public speaker and workshop facilitator, sharing her expertise and passion for technology with diverse audiences. She has contributed to multiple conferences, serving on program committees for notable events like JS Kongress."
   speaker_github_url: "https://github.com/Vannsl"
-  speaker_twitter_url: https://twitter.com/vannsl"
+  speaker_twitter_url: "https://twitter.com/vannsl"
   is_mc: false
 
 speaker_4: &DanielRoe
@@ -41,8 +41,49 @@ speaker_4: &DanielRoe
   speaker_role: "Framework Architect @ Nuxt Labs"
   speaker_bio: "Daniel leads the Nuxt core team. He founded and successfully grew a creative agency, launched an HR-tech SaaS startup, and continues to contribute to the developer community in the North East. He was identified as One to Watch by FreshMinds, has delivered a TEDx talk on the importance of clear communication, was a founding member of Durham Young Professionals and has mentored students in the Future Business Magnates programme. He has been recognised as a Microsoft MVP and a Google GDE. Daniel holds an MA in Jurisprudence from Oxford University and an MTh in Theological and Pastoral Studies from Oak Hill College."
   speaker_github_url: "https://github.com/danielroe/"
-  speaker_twitter_url: https://twitter.com/danielcroe"
+  speaker_twitter_url: "https://twitter.com/danielcroe"
   is_mc: false
+
+speaker_45: &AnnaVovchenko
+  speaker_in_speaker_lists: true
+  speaker_name: Anna Vovchenko
+  speaker_pic_filename: AnnaVovchenko.jpg
+  speaker_role: "Senior Frontend Engineer @ GitLab"
+  speaker_bio: "Anna Vovchenko is a passionate frontend developer who is always eager to know the product in depth. She's on a mission to enhance web development's consistency and efficiency, driven by a passion for tackling new challenges and a commitment to continuous learning."
+  speaker_github_url: "https://github.com/AnnieAlig"
+  speaker_twitter_url: "https://twitter.com/annie_alig"
+  is_mc: false
+
+speaker_6: &MarcoZuccaroli
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Zuccaroli
+  speaker_pic_filename: MarcoZuccaroli.jpg
+  speaker_role: "Frontend tech lead @ Re Mago Ltd"
+  speaker_bio: "Senior Software Developer and 10 years experienced Consultant. I have Full Stack Develop experience and currently working as Frontend and Javascript Specialist. I'm an open source enthusiastic supporter, author and mantainer of https://www.npmjs.com/package/angular-google-tag-manager"
+  speaker_github_url: "https://github.com/mzuccaroli"
+  speaker_twitter_url: "https://twitter.com/MarcoZuccaroli"
+  is_mc: false
+
+speaker_7: &PaoloCaleffi
+  speaker_in_speaker_lists: true
+  speaker_name: Paolo Caleffi
+  speaker_pic_filename: PaoloCaleffi.jpg
+  speaker_role: "CTO @ Dreamonkey"
+  speaker_bio: "Running my company and doing open-source by day, coordinating local youth volunteering efforts by night. Proud member of Quasar Core Team, focusing on project management and automated testing. I always aim at the moon, hoping at least to reach the sky. I am based in Reggio Emilia, Italy, but I am often traveling around Europe to meet new people."
+  speaker_github_url: "https://twitter.com/pcalloc"
+  speaker_twitter_url: "https://twitter.com/pcalloc"
+  is_mc: false
+
+speaker_8: &AbdelrahmanAwad
+  speaker_in_speaker_lists: true
+  speaker_name: Abdelrahman Awad
+  speaker_pic_filename: AbdelrahmanAwad.jpg
+  speaker_role: "Senior frontend Engineer @ Rasayel"
+  speaker_bio: "A Senior Frontend Engineer at Rasayel, based in Cairo, Egypt. I'm an open-source maintainer, I created vee-validate for Vue.js, I write often about Vue.js and TypeScript on my Blog. I am passionate about learning and teaching about Vue.js and TypeScript."
+  speaker_github_url: "https://github.com/logaretm"
+  speaker_twitter_url: https://twitter.com/logaretm"
+  is_mc: false
+
 
 
 speakers:
@@ -50,6 +91,12 @@ speakers:
   speaker_2: *FilipRakowski
   speaker_3: *DanielRoe
   speaker_4: *NataliaTeplhuina
+  speaker_5: *AnnaVovchenko
+  speaker_6: *MarcoZuccaroli
+  speaker_7: *PaoloCaleffi
+  speaker_8: *AbdelrahmanAwad
+
+
 
 tracks:
   track_1: &track_1
@@ -134,3 +181,47 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *NataliaTeplhuina
+
+      talk5:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Efficiency by Design: Building Complex Dashboards with Vue and Reusable Components"
+        talk_description: "Let's dive into the art of visualizing complex data with Vue! On a real-world example, a Kubernetes cluster dashboard, we'll cover the best practices of designing and implementing a dashboard in an efficient and iterative way. We'll see how reusable components will come in handy, saving developers time and effort while ensuring the code is clean and maintainable. We'll explore the safe usage of 3rd party APIs, mastering the art of managing the data they return. Join us as we master the techniques of building dynamic dashboards, which present data in a visually engaging way."
+        talk_video_url:
+        speakers:
+          speaker_1: *AnnaVovchenko    
+
+      talk6:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "A multisite Vue3 application for a multitenant enviromnent: a survival guide"
+        talk_description: "Multiple backends with multiple tenants, multiple client applications with multiple assets, in a multilanguage environment. One application to rule them all, One application to handle them, One application to bring them all and from a single codebase deploy them... With Vue3 Vite and Pinia."
+        talk_video_url:
+        speakers:
+          speaker_1: *MarcoZuccaroli
+
+      talk7:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Quasar: come for the UI library, stay for the integrations"
+        talk_description: "Either if you're a newcomer, just starting your trip in the JS frameworks nebula, or an experienced adventurer, showing off your IE6-era and JQuery scars, look no further: Quasar is probably the star you've been searching all along, the shiniest of the whole sky! You can stop by a couple times, just to dip your toes, using the beautiful and flexible UI library based on Material Design, via CDN or Vue CLI plugin. But we are sure we'll see you around again soon, once you find out you only need one command of the Quasar CLI to setup PWA support, SSR mode, Cordova/Capacitor integration, Electron integration and BEX (Browser EXtensions) development kit. Are you already thinking about settling here? Then you'll need a bit more stability! Here, take the constantly improving first party TypeScript support, plus Jest, Vitest and Cypress integrations. I know, it's a lot to digest in just a couple sentences... Ok then, let me be your guide today, I'll show you around. Ready to go? Jump in my spaceship and let's get going!"
+        talk_video_url:
+        speakers:
+          speaker_1: *PaoloCaleffi
+
+      talk8:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Streamlined composable forms with vee-validate"
+        talk_description: "We'll delve into Vee-Validate's comprehensive toolkit that goes beyond traditional validation. You'll learn how to effortlessly construct complex forms, leveraging Vee-Validate's intuitive composition API and utilities to streamline your development process. We'll focus on practical examples to showcase Vee-Validate's versatility, including conditional form rendering, custom input formats, and dynamic field interactions. By understanding these features, you can enhance user experiences and make your forms more engaging and user-friendly."
+        talk_video_url:
+        speakers:
+          speaker_1: *AbdelrahmanAwad
