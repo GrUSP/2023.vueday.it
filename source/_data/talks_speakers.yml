@@ -44,7 +44,7 @@ speaker_4: &DanielRoe
   speaker_twitter_url: "https://twitter.com/danielcroe"
   is_mc: false
 
-speaker_45: &AnnaVovchenko
+speaker_5: &AnnaVovchenko
   speaker_in_speaker_lists: true
   speaker_name: Anna Vovchenko
   speaker_pic_filename: AnnaVovchenko.jpg
@@ -87,14 +87,14 @@ speaker_8: &AbdelrahmanAwad
 
 
 speakers:
+  speaker_8: *AbdelrahmanAwad
+  speaker_7: *PaoloCaleffi
   speaker_1: *VanessaOtto
   speaker_2: *FilipRakowski
   speaker_3: *DanielRoe
   speaker_4: *NataliaTeplhuina
-  speaker_5: *AnnaVovchenko
+  speaker_5: *AnnaVovchenko  
   speaker_6: *MarcoZuccaroli
-  speaker_7: *PaoloCaleffi
-  speaker_8: *AbdelrahmanAwad
 
 
 
