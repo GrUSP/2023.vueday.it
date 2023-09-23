@@ -44,7 +44,7 @@ speaker_4: &DanielRoe
   speaker_twitter_url: "https://twitter.com/danielcroe"
   is_mc: false
 
-speaker_45: &AnnaVovchenko
+speaker_5: &AnnaVovchenko
   speaker_in_speaker_lists: true
   speaker_name: Anna Vovchenko
   speaker_pic_filename: AnnaVovchenko.jpg
@@ -87,14 +87,14 @@ speaker_8: &AbdelrahmanAwad
 
 
 speakers:
+  speaker_8: *AbdelrahmanAwad
+  speaker_7: *PaoloCaleffi
   speaker_1: *VanessaOtto
   speaker_2: *FilipRakowski
   speaker_3: *DanielRoe
   speaker_4: *NataliaTeplhuina
-  speaker_5: *AnnaVovchenko
+  speaker_5: *AnnaVovchenko  
   speaker_6: *MarcoZuccaroli
-  speaker_7: *PaoloCaleffi
-  speaker_8: *AbdelrahmanAwad
 
 
 
@@ -122,6 +122,28 @@ days:
     date: 2020-09-16T09:00
     title: "Day 1"
     talks:
+      talk8:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Streamlined composable forms with vee-validate"
+        talk_description: "We'll delve into Vee-Validate's comprehensive toolkit that goes beyond traditional validation. You'll learn how to effortlessly construct complex forms, leveraging Vee-Validate's intuitive composition API and utilities to streamline your development process. We'll focus on practical examples to showcase Vee-Validate's versatility, including conditional form rendering, custom input formats, and dynamic field interactions. By understanding these features, you can enhance user experiences and make your forms more engaging and user-friendly."
+        talk_video_url:
+        speakers:
+          speaker_1: *AbdelrahmanAwad
+
+      talk7:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Quasar: come for the UI library, stay for the integrations"
+        talk_description: "Either if you're a newcomer, just starting your trip in the JS frameworks nebula, or an experienced adventurer, showing off your IE6-era and JQuery scars, look no further: Quasar is probably the star you've been searching all along, the shiniest of the whole sky! You can stop by a couple times, just to dip your toes, using the beautiful and flexible UI library based on Material Design, via CDN or Vue CLI plugin. But we are sure we'll see you around again soon, once you find out you only need one command of the Quasar CLI to setup PWA support, SSR mode, Cordova/Capacitor integration, Electron integration and BEX (Browser EXtensions) development kit. Are you already thinking about settling here? Then you'll need a bit more stability! Here, take the constantly improving first party TypeScript support, plus Jest, Vitest and Cypress integrations. I know, it's a lot to digest in just a couple sentences... Ok then, let me be your guide today, I'll show you around. Ready to go? Jump in my spaceship and let's get going!"
+        talk_video_url:
+        speakers:
+          speaker_1: *PaoloCaleffi
+      
       talk_1:
         item_type: "service"
         start_datetime: 2020-09-16T09:00
@@ -204,24 +226,6 @@ days:
         speakers:
           speaker_1: *MarcoZuccaroli
 
-      talk7:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Quasar: come for the UI library, stay for the integrations"
-        talk_description: "Either if you're a newcomer, just starting your trip in the JS frameworks nebula, or an experienced adventurer, showing off your IE6-era and JQuery scars, look no further: Quasar is probably the star you've been searching all along, the shiniest of the whole sky! You can stop by a couple times, just to dip your toes, using the beautiful and flexible UI library based on Material Design, via CDN or Vue CLI plugin. But we are sure we'll see you around again soon, once you find out you only need one command of the Quasar CLI to setup PWA support, SSR mode, Cordova/Capacitor integration, Electron integration and BEX (Browser EXtensions) development kit. Are you already thinking about settling here? Then you'll need a bit more stability! Here, take the constantly improving first party TypeScript support, plus Jest, Vitest and Cypress integrations. I know, it's a lot to digest in just a couple sentences... Ok then, let me be your guide today, I'll show you around. Ready to go? Jump in my spaceship and let's get going!"
-        talk_video_url:
-        speakers:
-          speaker_1: *PaoloCaleffi
+   
 
-      talk8:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Streamlined composable forms with vee-validate"
-        talk_description: "We'll delve into Vee-Validate's comprehensive toolkit that goes beyond traditional validation. You'll learn how to effortlessly construct complex forms, leveraging Vee-Validate's intuitive composition API and utilities to streamline your development process. We'll focus on practical examples to showcase Vee-Validate's versatility, including conditional form rendering, custom input formats, and dynamic field interactions. By understanding these features, you can enhance user experiences and make your forms more engaging and user-friendly."
-        talk_video_url:
-        speakers:
-          speaker_1: *AbdelrahmanAwad
+      

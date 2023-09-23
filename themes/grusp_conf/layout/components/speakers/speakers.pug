@@ -20,9 +20,9 @@ section(id="hero__speakers").section_nopadding
       .column.inner
         h2(role="heading" aria-level="2").title.is-2
           if site.data.defaults.conference.speaker_count_text
-            | !{site.data.defaults.conference.speaker_count_text}
+            | !{site.data.defaults.conference.speaker_count_text} 
           else
-            | !{no_of_speakers} !{site.data.defaults.conference.speakers_title}!{suffix}
+            | !{no_of_speakers} amazing !{site.data.defaults.conference.speakers_title}!{suffix}:
             if no_of_mcs > 0
               = " + "
               | !{no_of_mcs} !{site.data.defaults.conference.mcs_title}!{mcs_suffix}
