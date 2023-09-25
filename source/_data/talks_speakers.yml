@@ -178,8 +178,8 @@ days:
         track: *track_1
         start_datetime:
         end_datetime:
-        talk_title: ""
-        talk_description: ""
+        talk_title: "You’re probably using Lighthouse wrong: How we misuse most common tool to measure web performance?"
+        talk_description: "These days web performance is one of the most important things everyone wants to optimize on their apps, and it's clear to everyone how dramatic the impact of a poorly optimized website is on business. Yet we as an industry completely fail in recognizing its complexity and widely misuse the most common tool to measure it — Google Lighthouse. If you’re one of those people thinking that good performance equals a good Lighthouse score, you’ve also fallen into this trap and this talk is for you. You will learn when the Google Lighthouse audit results can trick you and how to make good decisions based on its output."
         talk_video_url:
         speakers:
           speaker_1: *FilipRakowski
