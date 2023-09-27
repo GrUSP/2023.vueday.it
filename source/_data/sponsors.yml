@@ -28,6 +28,10 @@ silver:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+  sponsor2:
+    name: "Dreamonkey"
+    logo_filename: "dreamonkey.svg"
+    site_url: "https://dreamonkey.com/en/home"
 bronze:
   sponsor1:
     name: "extera"
