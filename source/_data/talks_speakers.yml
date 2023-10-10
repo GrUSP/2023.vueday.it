@@ -57,7 +57,7 @@ speaker_5: &AnnaVovchenko
 speaker_6: &MarcoZuccaroli
   speaker_in_speaker_lists: true
   speaker_name: Marco Zuccaroli
-  speaker_pic_filename: MarcoZuccaroli.jpg
+  speaker_pic_filename: MarcoZuccaroli.png
   speaker_role: "Frontend tech lead @ Re Mago Ltd"
   speaker_bio: "Senior Software Developer and 10 years experienced Consultant. I have Full Stack Develop experience and currently working as Frontend and Javascript Specialist. I'm an open source enthusiastic supporter, author and mantainer of https://www.npmjs.com/package/angular-google-tag-manager"
   speaker_github_url: "https://github.com/mzuccaroli"
@@ -77,7 +77,7 @@ speaker_7: &PaoloCaleffi
 speaker_8: &AbdelrahmanAwad
   speaker_in_speaker_lists: true
   speaker_name: Abdelrahman Awad
-  speaker_pic_filename: AbdelrahmanAwad.jpg
+  speaker_pic_filename: AbdelrahmanAwad.png
   speaker_role: "Senior frontend Engineer @ Rasayel"
   speaker_bio: "A Senior Frontend Engineer at Rasayel, based in Cairo, Egypt. I'm an open-source maintainer, I created vee-validate for Vue.js, I write often about Vue.js and TypeScript on my Blog. I am passionate about learning and teaching about Vue.js and TypeScript."
   speaker_github_url: "https://github.com/logaretm"
