@@ -38,7 +38,7 @@ speaker_4: &DanielRoe
   speaker_in_speaker_lists: true
   speaker_name: Daniel Roe
   speaker_pic_filename: DanielRoe.jpg
-  speaker_role: "Framework Architect @ Nuxt Labs"
+  speaker_role: "Framework Lead @ Nuxt"
   speaker_bio: "Daniel leads the Nuxt core team. He founded and successfully grew a creative agency, launched an HR-tech SaaS startup, and continues to contribute to the developer community in the North East. He was identified as One to Watch by FreshMinds, has delivered a TEDx talk on the importance of clear communication, was a founding member of Durham Young Professionals and has mentored students in the Future Business Magnates programme. He has been recognised as a Microsoft MVP and a Google GDE. Daniel holds an MA in Jurisprudence from Oxford University and an MTh in Theological and Pastoral Studies from Oak Hill College."
   speaker_github_url: "https://github.com/danielroe/"
   speaker_twitter_url: "https://twitter.com/danielcroe"
@@ -93,7 +93,7 @@ speakers:
   speaker_2: *FilipRakowski
   speaker_3: *DanielRoe
   speaker_4: *NataliaTeplhuina
-  speaker_5: *AnnaVovchenko  
+  speaker_5: *AnnaVovchenko
   speaker_6: *MarcoZuccaroli
 
 
@@ -143,7 +143,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *PaoloCaleffi
-      
+
       talk_1:
         item_type: "service"
         start_datetime: 2020-09-16T09:00
@@ -213,7 +213,7 @@ days:
         talk_description: "Let's dive into the art of visualizing complex data with Vue! On a real-world example, a Kubernetes cluster dashboard, we'll cover the best practices of designing and implementing a dashboard in an efficient and iterative way. We'll see how reusable components will come in handy, saving developers time and effort while ensuring the code is clean and maintainable. We'll explore the safe usage of 3rd party APIs, mastering the art of managing the data they return. Join us as we master the techniques of building dynamic dashboards, which present data in a visually engaging way."
         talk_video_url:
         speakers:
-          speaker_1: *AnnaVovchenko    
+          speaker_1: *AnnaVovchenko
 
       talk6:
         item_type: "talk"
@@ -226,6 +226,6 @@ days:
         speakers:
           speaker_1: *MarcoZuccaroli
 
-   
 
-      
+
+
