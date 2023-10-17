@@ -32,6 +32,14 @@ silver:
     name: "Dreamonkey"
     logo_filename: "dreamonkey.svg"
     site_url: "https://dreamonkey.com/en/home"
+  sponsor3:
+    name: "gitlab"
+    logo_filename: "gitlab.svg"
+    site_url: "https://about.gitlab.com/"
+  sponso4:
+    name: "mago"
+    logo_filename: "mago.svg"
+    site_url: "https://mago.io"
 bronze:
   sponsor1:
     name: "extera"
