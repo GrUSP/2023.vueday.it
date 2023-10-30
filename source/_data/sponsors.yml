@@ -36,10 +36,14 @@ silver:
     name: "gitlab"
     logo_filename: "gitlab.svg"
     site_url: "https://about.gitlab.com/"
-  sponso4:
+  sponsor4:
     name: "mago"
     logo_filename: "mago.svg"
     site_url: "https://mago.io"
+  sponsor5:
+    name: "rasayel"
+    logo_filename: "rasayel.svg"
+    site_url: "https://www.rasayel.io"
 bronze:
   sponsor1:
     name: "extera"
